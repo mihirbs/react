@@ -1,0 +1,35 @@
+/* src/components/Header.css */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 20px; /* Spacing between buttons */
+  }
+  
+  .link-button {
+    background: none;
+    color: #0070c9; /* Change this to your desired link color */
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    text-decoration: underline; /* Optional: to make it look like a link */
+    transition: color 0.2s; /* Smooth transition for hover effect */
+  }
+  
+  .link-button:hover {
+    color: #005bb5; /* Change color on hover */
+  }
+  

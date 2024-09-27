@@ -1,0 +1,23 @@
+.main {
+    background-image: url('https://www.apple.com/v/home/z/images/heroes/iphone-14-pro/hero_iphone14pro__eulndbga1xuy_large.jpg'); /* Placeholder image */
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .hero-section h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .hero-section p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  
