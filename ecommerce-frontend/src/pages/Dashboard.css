@@ -1,0 +1,25 @@
+/* src/pages/Dashboard.css */
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+    background-color: #f0f2f5;
+  }
+  
+  .dashboard-main {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .dashboard-content {
+    margin-top: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  p {
+    color: #555;
+  }
+      
