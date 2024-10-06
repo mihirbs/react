@@ -75,3 +75,30 @@ function App() {
   );
 }
 export default App;
+
+// project-root/
+// │
+// ├── public/
+// │   ├── index.html
+// │   └── favicon.ico
+// │
+// ├── src/
+// │   ├── components/
+// │   │   ├── About.js
+// │   │   ├── Counter.js
+// │   │   ├── Greetings.js
+// │   │   ├── Home.js
+// │   │   ├── LifecycleDemo.js
+// │   │   ├── ToggleMessage.js
+// │   │   ├── Userform.js
+// │   ├── styles/
+// │   │   └── main.css
+// │   ├── App.js
+// │   ├── App.test.js
+// │   ├── App.css
+// │   └── index.js
+// │
+// ├── node_modules/
+// │
+// ├── package.json
+// └── package-lock.json
