@@ -34,6 +34,7 @@ import LifecycleDemo from './components/LifecycleDemo';
 import Userform from './components/UserForm';
 import Home from './components/Home';
 import About from './components/About';
+import Navbar from './components/Navbar';
 // import Classcomponent from './components/Classcomponent';
 // import MyFunctionComponent from './components/Functioncomponent';
 // function App() {
@@ -57,14 +58,15 @@ function App() {
   return (
     <Router>
       <div className='App'>
-        <nav>
+        {/* <nav>
           <Link to='/'>Home</Link>
           <Link to='/about'>About</Link>
-        </nav>
+        </nav> */}
         <Routes>
           <Route exact path='/' component={Home} />
           <Route path='/about' component={About} />
         </Routes>
+        <Navbar />
         <Greetings name='Mihir' />
         <Counter />
         <ToggleMessage />

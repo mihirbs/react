@@ -15,6 +15,7 @@ class MyClassComponent extends React.Component {
       <div>
         <h1>Count: {this.state.count}</h1>
         <button onClick={this.increment}>Increment</button>
+        <button onClick={this.decrement}>decrement</button>
       </div>
     );
   }
