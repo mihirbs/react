@@ -1,7 +1,7 @@
 import React from 'react';
 
-function Greetings(props) {
+function Mihir(props) {
     return <h1>Hello, {props.name}!</h1>;
 }
 
-export default Greetings;
+export default Mihir;
